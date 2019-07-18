@@ -11,3 +11,11 @@ git clone --recursive https://github.com/littlevgl/stm32f746_disco_no_os_atollic
 
 3. Import the project into your workspace.
 4. Build and run!
+
+## How to get LittlevGL 5.3
+
+```sh
+git clone --recursive https://github.com/littlevgl/stm32f746_disco_no_os_atollic.git
+git checkout v5.3
+git submodule update --recursive
+```
